@@ -1,6 +1,6 @@
 from datetime import datetime
 import subprocess
-subprocess.Popen('ulimit -n')
+subprocess.Popen('ulimit -n', shell=True)
 
 now = datetime.now()
 
